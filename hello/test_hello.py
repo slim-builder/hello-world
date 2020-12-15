@@ -10,7 +10,7 @@ class TestHello(unittest.TestCase):
     def test_world(self):
         """sample test"""
         time.sleep(30)
-        self.assertEqual(hello('worl'), 'hello worl')
+        self.assertEqual(hello('wor'), 'hello wor')
 
     def test_world_unicode(self):
         """sample test with unicode"""
